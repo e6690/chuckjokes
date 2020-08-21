@@ -1,0 +1,54 @@
+.container{
+  background-color: rgba(146, 146, 199, 0.582);
+  width: 80vw;
+  padding: 40px;
+  height: vh;
+  border-left: 3px solid #f15025;
+}
+
+body{
+  background-color: #ced0ce;
+  min-height: 100vh;
+  text-align: center;
+  padding: 100px;
+}
+
+.quote-text{
+  min-height: 20vh;
+}
+
+.container h1{
+  font-size: 50px;
+  text-align: left;
+}
+
+.container p{
+  text-transform: capitalize;
+  color: #ced0ce;
+  text-align: right;
+  font-style: italic;
+  font-size: 30px;
+}
+
+#btn{
+  margin-top: 30px;
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color: cadetblue;
+  color: azure;
+  text-transform: uppercase;
+}
+
+#btn:hover{
+  color: cadetblue;
+  background-color: #f15020;
+}
+
+.randomBgColor {
+  transition: background-color 1s ease;
+
+}
+
+.randomTxtColor {
+  transition: color 1s ease;
+}
